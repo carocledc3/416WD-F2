@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6in"
+   height="6in"
+   viewBox="0 0 152.4 152.4"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (1:1.4.3+202512261035+0d15f75042)"
+   sodipodi:docname="lazuli-logo.svg"
+   inkscape:export-filename="lazuli-logo-300.png"
+   inkscape:export-xdpi="50"
+   inkscape:export-ydpi="50"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.96379011"
+     inkscape:cx="280.66277"
+     inkscape:cy="219.44612"
+     inkscape:window-width="1920"
+     inkscape:window-height="983"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient50"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#d07200;stop-opacity:1;"
+         offset="0"
+         id="stop50" />
+      <stop
+         style="stop-color:#deb134;stop-opacity:1;"
+         offset="1"
+         id="stop51" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient48"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#212f91;stop-opacity:1;"
+         offset="0"
+         id="stop48" />
+      <stop
+         style="stop-color:#64afdc;stop-opacity:1;"
+         offset="0.99858773"
+         id="stop49" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient48"
+       id="linearGradient49"
+       x1="76.199997"
+       y1="146.1487"
+       x2="76.199997"
+       y2="6.251298"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient50"
+       id="linearGradient51"
+       x1="75.682816"
+       y1="110.89703"
+       x2="76.199997"
+       y2="6.251298"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path47"
+       style="fill:url(#linearGradient49);stroke-width:13.3916;stroke-linecap:round;stroke-linejoin:bevel;fill-opacity:1"
+       d="M 47.625 6.251298 L 47.625 25.4 L 62.441667 25.4 L 62.441667 6.251298 L 47.625 6.251298 z M 68.791667 6.251298 L 68.791667 25.4 L 83.608333 25.4 L 83.608333 6.251298 L 68.791667 6.251298 z M 89.958333 6.251298 L 89.958333 25.4 L 104.775 25.4 L 104.775 6.251298 L 89.958333 6.251298 z M 17.454232 31.75 L 10.684102 46.566667 L 41.275 46.566667 L 41.275 31.75 L 17.454232 31.75 z M 47.625 31.75 L 47.625 46.566667 L 62.441667 46.566667 L 62.441667 31.75 L 47.625 31.75 z M 89.958333 31.75 L 89.958333 46.566667 L 104.775 46.566667 L 104.775 31.75 L 89.958333 31.75 z M 111.125 31.75 L 111.125 46.566667 L 141.7159 46.566667 L 134.94577 31.75 L 111.125 31.75 z M 47.625 52.916667 L 47.625 67.733333 L 62.441667 67.733333 L 62.441667 52.916667 L 47.625 52.916667 z M 89.958333 52.916667 L 89.958333 67.733333 L 104.775 67.733333 L 104.775 52.916667 L 89.958333 52.916667 z M 4.1346313 74.083333 L 18.951298 88.9 L 41.275 88.9 L 41.275 74.083333 L 4.1346313 74.083333 z M 47.625 74.083333 L 47.625 88.9 L 62.441667 88.9 L 62.441667 74.083333 L 47.625 74.083333 z M 47.625 95.25 L 47.625 117.5737 L 62.441667 132.39037 L 62.441667 95.25 L 47.625 95.25 z M 68.791667 95.25 L 68.791667 138.74037 L 76.2 146.1487 L 83.608333 138.74037 L 83.608333 95.25 L 68.791667 95.25 z M 89.958333 95.25 L 89.958333 132.39037 L 104.775 117.5737 L 104.775 95.25 L 89.958333 95.25 z " />
+    <path
+       id="path1"
+       style="fill:url(#linearGradient51);stroke-width:13.3916;stroke-linecap:round;stroke-linejoin:bevel;fill-opacity:1"
+       d="M 29.105717,6.251298 20.355863,25.4 H 41.275 V 6.251298 Z m 82.019283,0 V 25.4 h 20.91914 L 123.29428,6.251298 Z M 7.7824707,52.916667 1.0123413,67.733333 H 41.275 V 52.916667 Z m 103.3425293,0 v 14.816666 h 40.26266 L 144.61753,52.916667 Z M 25.301298,95.25 41.275,111.2237 V 95.25 Z m 85.823702,0 v 15.9737 L 127.0987,95.25 Z" />
+  </g>
+</svg>
