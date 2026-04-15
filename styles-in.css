@@ -62,11 +62,15 @@ nav a:not(:last-child) {
     @apply translate-y-25 w-full flex-col pb-10
 }
 
-.introcontent {
-    @apply bg-amber-50 rounded-lg max-w-140 min-w-80 m-4 p-4 justify-self-center shadow-lg shadow-lazuli-500/50 grid grid-cols-2 items-center leading-6
+.card {
+    @apply bg-amber-50 rounded-lg max-w-140 min-w-80 m-4 p-4 justify-self-center shadow-lg shadow-lazuli-500/50 leading-6
 }
 
-.introcontent:nth-of-type(even) {
+.introcontent {
+    @apply grid grid-cols-2 items-center 
+}
+
+.card:nth-of-type(even) {
     @apply bg-lazuli-50
 }
 
@@ -121,3 +125,14 @@ img.border {
 }
 
 p { @apply text-sm sm:text-base text-justify}
+code {
+    @apply p-1 text-sm rounded-sm bg-lazuli-300/50
+}
+
+#loc {
+    @apply list-decimal text-center flex flex-col justify-center
+}
+
+#loc img {
+    @apply justify-self-center object-scale-down w-full
+}
