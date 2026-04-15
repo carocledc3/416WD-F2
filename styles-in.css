@@ -24,7 +24,7 @@
 
 html {
     @reference "tailwindcss";
-    @apply h-full bg-linear-to-b from-lazuli-200 to-lazuli-400
+    @apply h-full bg-linear-to-b from-lazuli-200 to-lazuli-400 bg-fixed
 }
 
 h1 {
@@ -32,18 +32,22 @@ h1 {
 }
 
 header {
-    @apply fixed bg-yellow-50 shadow-lg shadow-lazuli-500/50 rounded-b-lg min-w-64 flex-row flex justify-center p-2 gap-4
+    @apply fixed bg-yellow-50 shadow-lg shadow-lazuli-500/50 rounded-b-lg min-w-64 flex-row flex p-2 gap-4 z-40 w-160 justify-center
+}
+
+img {
+    @apply drop-shadow-md drop-shadow-amber-900/20
 }
 
 #header-img {
     @apply w-50 h-20 drop-shadow-md drop-shadow-amber-900/20 hover:drop-shadow-md hover:drop-shadow-amber-400/50
 }
 .headercont {
-    @apply w-full flex justify-center
+    @apply w-full flex justify-center 
 }
 
 nav {
-    @apply flex items-center flex-row
+    @apply flex items-center flex-col sm:flex-row
 }
 
 nav a {
@@ -53,3 +57,67 @@ nav a {
 nav a:not(:last-child) {
     @apply border-r-2 border-amber-200
 }
+
+.maincontainer {
+    @apply translate-y-25 w-full flex-col pb-10
+}
+
+.introcontent {
+    @apply bg-amber-50 rounded-lg max-w-140 min-w-80 m-4 p-4 justify-self-center shadow-lg shadow-lazuli-500/50 grid grid-cols-2 items-center leading-6
+}
+
+.introcontent:nth-of-type(even) {
+    @apply bg-lazuli-50
+}
+
+.imagecaptions {
+    @apply flex flex-col
+}
+
+img.border {
+    @apply fixed border-none w-auto invisible md:visible
+}
+
+#border-l {
+    @apply shadow-lg shadow-lazuli-500/50 top-0 left-0 md:w-10 lg:w-20
+}
+
+#border-r {
+    @apply shadow-lg shadow-lazuli-500/50 top-0 right-0 md:w-10 lg:w-20
+}
+
+.img-left {
+    @apply float-left w-64 h-64 pr-4 object-fill }
+
+.img-right {
+    @apply float-right w-64 h-64 right-0 pl-8 object-fill
+}
+
+.introcontent p {
+    @apply w-full 
+}
+
+.imagecaptions h1 {
+    @apply mb-2
+}
+
+.hero {
+    background-image:
+        linear-gradient(#2953b8a0, #160b30),
+        url("./assets/ahmet-koç-hero.png");
+    @apply rounded-lg max-w-160 min-w-80 m-4 p-4 justify-self-center shadow-lg shadow-lazuli-500/50 h-100 bg-cover flex items-center justify-center flex-col
+}
+
+.hero-text, .hero-text *{
+    @apply text-center text-lazuli-50 text-xl
+}
+
+.title {
+    @apply font-black text-4xl
+}
+
+#order {
+    @apply bg-linear-to-b from-amber-100 to-lazuli-300 p-4 m-4 rounded-lg font-bold hover:ring-5 hover:ring-amber-300/30 hover:text-shadow-lg hover:text-shadow-lazuli-600/10
+}
+
+p { @apply text-sm sm:text-base text-justify}
