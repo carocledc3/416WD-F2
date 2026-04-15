@@ -11,6 +11,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
     <link rel="manifest" href="assets/favicons/site.webmanifest">
 </head>
+<script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 <body>
     <img class="border" id="border-l" src="./assets/border-l.svg">
     <img class="border" id="border-r" src="./assets/border-r.svg">
@@ -83,9 +85,23 @@
         </div>
         <div class="card" id="ord">
             <h1>Book An Appointment</h1>
-            <p>Orders for chocolate catering tend to be large and complex, which is why for placing orders, we invite you to walk-in at one of our offices or book an appointment here:</p>
+            <p>Orders for chocolate catering tend to be large and complex, which is why for placing orders, we invite you to walk-in at one of our offices or book an appointment here. We will get back to you when we find an available appointment date and time.</p>
+            <br>
             <form id="book">
-                <input type="text">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone">
+                    <label for="email">E-mail Address:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="perdate">Earliest Preferred Date: </label>
+                    <input type="date" id="perdate" name="perdate">
+                    <br>
+                <input value="Submit" class="submit" type="button" onclick="submitform()">
             </form>
         </div>
     </div>
