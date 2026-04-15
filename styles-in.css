@@ -1,3 +1,9 @@
+/* CARLOS ROMEO CLEMENTE DEL CASTILLO III
+UNIVERSITY OF THE CORDILLERAS, BSIT-2
+416WD/CC14/WEB APPLICATION DEVELOPMENT
+416WD-F2 Product Landing Page Project
+16 APRIL 2026 THURSDAY */
+
 @import url("./assets/interFont/inter.css");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 @import "tailwindcss";
@@ -36,11 +42,11 @@ header {
 }
 
 footer {
-    @apply fixed bottom-0 bg-yellow-50 shadow-lg shadow-lazuli-500/50 rounded-t-lg min-w-64 flex-row flex p-2 h-10 gap-4 z-40 w-160 justify-center 
+    @apply fixed bottom-0 bg-yellow-50 shadow-lg shadow-lazuli-500/50 rounded-t-lg min-w-64 flex-row flex p-2 h-13 gap-4 z-40 w-160 justify-center text-center
 }
 
 footer p {
-    @apply text-xs
+    @apply text-[8pt] text-center
 }
 
 footer a {
