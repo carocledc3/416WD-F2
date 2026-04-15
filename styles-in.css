@@ -1,1 +1,32 @@
 @import url("./assets/interFont/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import "@catppuccin/tailwindcss/mocha.css";
+@import "tailwindcss";
+
+@theme {
+    --color-lazuli: oklch(72.307% 0.09949 236.7);
+    --color-lazuli-50: oklch(96.095% 0.02494 181.28);
+    --color-lazuli-100: oklch(93.974% 0.03864 188.53);
+    --color-lazuli-200: oklch(89.384% 0.06164 199.92);
+    --color-lazuli-300: oklch(81.939% 0.0773 216.03);
+    --color-lazuli-400: oklch(72.307% 0.09949 236.7);
+    --color-lazuli-500: oklch(60.147% 0.14211 254.22);
+    --color-lazuli-600: oklch(47.394% 0.16688 264.02);
+    --color-lazuli-700: oklch(36.528% 0.16048 269.81);
+    --color-lazuli-800: oklch(28.106% 0.13612 274.77);
+    --color-lazuli-900: oklch(22.355% 0.09389 285.47);
+    --color-lazuli-950: oklch(19.132% 0.06998 292.16);
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    @reference "tailwindcss";
+    @apply h-full bg-linear-to-b from-lazuli-50 to-lazuli-200
+}
+
+h1 {
+    @apply text-center font-black text-2xl text-ctp-surface0;
+}
