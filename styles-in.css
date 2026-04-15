@@ -35,6 +35,18 @@ header {
     @apply fixed bg-yellow-50 shadow-lg shadow-lazuli-500/50 rounded-b-lg min-w-64 flex-row flex p-2 gap-4 z-40 w-160 justify-center
 }
 
+footer {
+    @apply fixed bottom-0 bg-yellow-50 shadow-lg shadow-lazuli-500/50 rounded-t-lg min-w-64 flex-row flex p-2 h-10 gap-4 z-40 w-160 justify-center 
+}
+
+footer p {
+    @apply text-xs
+}
+
+footer a {
+    @apply text-lazuli-600 
+}
+
 img {
     @apply drop-shadow-md drop-shadow-amber-900/20
 }
@@ -42,7 +54,7 @@ img {
 #header-img {
     @apply w-50 h-20 drop-shadow-md drop-shadow-amber-900/20 hover:drop-shadow-md hover:drop-shadow-amber-400/50
 }
-.headercont {
+.headercont, .footercont {
     @apply w-full flex justify-center 
 }
 
